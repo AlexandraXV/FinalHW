@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Терминал MacOS</title>
+    <nav>
+        <a style="color: black;" href="index.html">Главная</a></li>
+    </nav>
+</head>
+<body><table border="1" align="center">
+<caption><h2>Команды для навигации и базовой работы с файлами</h2></caption>
+<thead>
+    <tr>
+        <th>Команда</th>
+        <th>Для чего нужна</th>
+    </tr>
+</thead>
+<tbody>
+        <tr><td><strong>ls</td></strong><td>покажет содержимое директории, в которой вы находитесь. Если после команды ввести адрес
+        конкретной папки, то она покажет то, что хранится в ней. При добавлении аргумента <code><b style="background-color: rgb(187, 184, 184);color: black;">-R</code></b> в выводе
+        команды появятся файлы из поддиректорий</td></tr>
+    
+        <tr><td><strong>cd или win</td></strong><td>переместиться между папками. Вписываем ее, а потом адрес: <code>cd
+        /user/test/dir/111</code>. Есть сокращенные варианты: <code><b style="background-color: rgb(187, 184, 184);color: black;">cd-</code></b> для перемещения в предыдущую
+        директорию или <code><b style="background-color: rgb(187, 184, 184);color: black;">cd~</code></b> для прыжка в домашнюю папку</td></tr>
+    
+        <tr><td><strong>pwd</td></strong><td>укажет полный путь до директории, в которой вы находитесь</td></tr>
+    
+        <tr><td><strong>file</td></strong><td>расскажет, что перед вами изображение, директория или текстовый документ, а также
+        предоставит информацию о них (для изображений, например, это данные EXIF)</td></tr>
+    
+        <tr><td><strong>mv</td></strong><td>mv применяется для перемещения файлов из одной папки в другую. Для этого пишем <code>
+        <b style="background-color: rgb(187, 184, 184);color: black;">mv название_файла название_папки</code></b></td></tr>
+
+        <tr><td><strong>rm</td></strong><td>удалить файл. Для того, чтобы это сделать пишеи: <code><b style="background-color: rgb(187, 184, 184);color: black;">
+        rm название_файла.</code></b>Если хотите, чтобы у вас отоборжалось подтверждение перед удаление, то вводим: <code><b style="background-color: rgb(187, 184, 184);color: black;">
+        rm -i название_файла</code></b>(понадобиться ввести <code>y</code> для подтверждения или <code>n</code> для отмены). Также не забывайте указывать формат файла.</td></tr>
+    
+        <tr><td><strong>mkdir</td></strong><td>создает новую директорию. Допустим, мы хотим создать папку под новый проект на рабочем
+        столе. Для этого введем команду: <code><b style="background-color: rgb(187, 184, 184);color: black;">mkdir название_папки</code></b>. При желании можно создать сразу несколько папок:<code>
+        <b style="background-color: rgb(187, 184, 184);color: black;">mkgir название_первой_папки название_второй_папки</code></b></td></tr>
+    
+        <tr><td><strong>rmdir</td></strong><td>удаляет пустую папку <code><b style="background-color: rgb(187, 184, 184);color: black;">rmdir название_папки</code></b>. Акцентируем внимание на слове «пустую». Для того, чтобы удалить папку со всем содержимым:<code>
+        <b style="background-color: rgb(187, 184, 184);color: black;">rm -R название_папки</code></b></td></tr>
+    
+        <tr><td><strong>cat или less</td></strong><td>показывает содержимое документов. Можно скормить этой утилите любой текстовый файл, и она
+        прямо в терминале отобразит все, что в нем записано. Пишем: <code><b style="background-color: rgb(187, 184, 184);color: black;">cat название_файла</b></code>(не забудьте указать формат файла).</td></tr>
+    
+
+</body>
+</html>
